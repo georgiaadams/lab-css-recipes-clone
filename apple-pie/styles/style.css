@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html {
+      font-family:'Roboto', sans-serif;
+      size: 10px;
+      line-height: 3.5em; 
+      font-weight: 300;
+    };
+    
+    h1, h2, h3 {
+      font-family: Roboto;
+    }
+    
+    h1 {
+      font-size: 5em;
+      text-align:center; 
+      margin:0%; 
+      color: white;
+      font-weight:300;
+    }
+    
+    header {
+      background-image: url('../images/apple-pie.jpg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 600px;
+    } 
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    section {
+      padding: 40px;
+    }
+    
+    p {
+      font-size: 1.2em;
+      letter-spacing:0.5px; 
+      line-height: 1.3em;
+      text-align: left;
+      width: 70%;
+      margin: auto; 
+      
+    }
+
+    .recipe-image {
+       height:60px;
+       padding: 30px;
+    }
+
+    .line {
+      color: black;
+      width: 90%;
+    }
+
+    .introduction {
+        padding-bottom:0px;
+    }
+
+    .ingredients {
+        padding-top:0.5px;
+        padding-bottom: 0px;
+    }
+    
+    .ingredients ul {
+      font-size: 1em;
+      line-height:1.4em;
+      list-style-type: circle;  
+      
+    }
+
+    .ingredients li {
+        text-align: left;
+    }
+
+    .cooking-image {
+        height:70px;
+        padding: 30px;
+    }
+    
+    .recipe ol {
+      font-size: 1em;
+      line-height:1.4em;
+      weight: 100; 
+    }
+
+    .recipe {
+      padding-top: 1px;
+    }
+
+  
